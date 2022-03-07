@@ -1,7 +1,8 @@
 /* General utility */
 body {
-    padding: 0 15%;
+    padding: 0;
     margin: 0;
+    font-family: Helvetica, Sans-serif;
 }
 
 .primary-bg-color {
@@ -26,4 +27,25 @@ body {
 
 .tertiary-txt-color {
     color: #1f2937;
+}
+
+/* header navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .brand-text {
+    font-weight: 900;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 8px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #e5e7eb;
 }
