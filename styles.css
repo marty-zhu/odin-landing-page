@@ -5,6 +5,16 @@ body {
     font-family: Helvetica, Sans-serif;
 }
 
+button {
+    padding: 5px 25px;
+    border-radius: 7px;
+    box-shadow: none;
+}
+
+.container {
+    padding: 0 15%;
+}
+
 .primary-bg-color {
     background-color: #1f2937;
 }
@@ -48,4 +58,24 @@ ul {
 .menu-item a {
     text-decoration: none;
     color: #e5e7eb;
+}
+
+/* hero section css */
+div.hero {
+    display: flex;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    flex-flow: row wrap;
+}
+
+p.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-right img {
+    height: 30%;
+    width: 45%;
 }
