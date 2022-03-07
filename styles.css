@@ -1,4 +1,29 @@
+/* General utility */
 body {
     padding: 0 15%;
     margin: 0;
+}
+
+.primary-bg-color {
+    background-color: #1f2937;
+}
+
+.secondary-bg-color {
+    background-color: #e5e7eb;
+}
+
+.cta-bg-color {
+    background-color: #3882f6;
+}
+
+.primary-txt-color {
+    color: #f9faf8;
+}
+
+.secondary-txt-color {
+    color: #e5e7eb;
+}
+
+.tertiary-txt-color {
+    color: #1f2937;
 }
