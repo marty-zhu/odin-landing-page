@@ -62,6 +62,10 @@ ul {
 }
 
 /* hero section css */
+div.hero-left {
+    width: 52vh;
+}
+
 div.hero {
     display: flex;
     padding-top: 10%;
