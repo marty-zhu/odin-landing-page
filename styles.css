@@ -76,7 +76,18 @@ p.hero-main-text {
     margin: 0;
 }
 
+.hero-right {
+    display: flex;
+    height: 30vh;
+    width: 80vw;
+    margin: 3vh 0vw;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: white;
+}
+
 .hero-right img {
-    height: 30%;
-    width: 45%;
+    flex: 1;
+    text-align: center;
 }
