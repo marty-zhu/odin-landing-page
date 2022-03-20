@@ -91,3 +91,16 @@ p.hero-main-text {
     flex: 1;
     text-align: center;
 }
+
+/* info section CSS */
+
+div.info {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+div.info-gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
