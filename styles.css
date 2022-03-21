@@ -117,7 +117,7 @@ div.info-header {
 div.info-gallery-container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 div.info-item {
