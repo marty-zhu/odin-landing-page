@@ -24,7 +24,7 @@
         <div class="hero-left">
           <p class="hero-main-text primary-txt-color">This website is awesome</p>
           <p class="hero-sec-text secondary-txt-color">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-          <button class="hero-cta cta-bg-color primary-txt-color">Sign up</button>
+          <button onclick="msg()" type="button" class="hero-cta cta-bg-color primary-txt-color">Sign up</button>
         </div>
         <div class="hero-right">
           <img class="hero-img" src="" alt="this is a placeholder for an image">
@@ -54,28 +54,33 @@
         </div>
       </div>
     </section>
-    <section id="testimonial-section" class="">
-      <div class="container">
+    <section id="testimonial-section" class="secondary-bg-color">
+      <div class="container testimonial">
         <p class="testimonial">This is an inspiring quote, or a testimonial from a cutomer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
         <p class="testimony-source">-Thor, God of Thunder</p>
       </div>
     </section>
     <section id="cta-section" class="">
-      <div class="container">
-        <div class="cta-card">
+      <div class="container cta">
+        <div class="cta-card cta-bg-color primary-txt-color">
           <div class="card-info">
             <p class="cta-header">Call to action! It's time!</p>
             <p class="cta-text">Sign up for our product by clicking that button right over there!</p>
           </div>
-          <button class="cta">Sign up</button>
+          <button onclick="msg()" type="button" class="cta cta-bg-color primary-txt-color">Sign up</button>
         </div>
       </div>
     </section>
   </main>
-  <footer>
+  <footer class="primary-bg-color">
     <div class="container">
-      <p>Copyright &copy; The Odin Project 2021</p>
+      <p class="primary-txt-color">Copyright &copy; The Odin Project 2021</p>
     </div>
   </footer>
+  <script>
+    function msg() {
+          alert("Thank you for signing up!");
+        }
+  </script>
 </body>
 </html>
