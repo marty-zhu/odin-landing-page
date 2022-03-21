@@ -12,6 +12,11 @@ button {
     box-shadow: none;
 }
 
+button:hover {
+    background-color: #f9faf8;
+    color: #3882f6;
+}
+
 header {
     position: sticky;
     top: 0px;
