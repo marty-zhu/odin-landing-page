@@ -140,3 +140,11 @@ div.info-item {
     height: auto;
     text-align: center;
 }
+
+
+/* testimonial section CSS */
+
+div.testimonial {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
