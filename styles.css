@@ -185,14 +185,21 @@ div.cta {
 
 div.cta-card {
     display: flex;
+    border-radius: 7px;
     justify-content: space-evenly;
     padding: 5vh;
 }
 
 p.cta-header {
     margin: 0;
+    font-size: 22px;
+    font-weight: 800;
 }
 
 p.cta-text {
     margin: 0;
+}
+
+button.cta {
+    border: 2px solid #fff;
 }
