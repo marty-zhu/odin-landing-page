@@ -12,6 +12,11 @@ button {
     box-shadow: none;
 }
 
+header {
+    position: sticky;
+    top: 0px;
+}
+
 .container {
     padding: 0 15%;
 }
