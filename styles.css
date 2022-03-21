@@ -68,8 +68,8 @@ div.hero-left {
 
 div.hero {
     display: flex;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
@@ -103,8 +103,8 @@ p.hero-main-text {
 div.info {
     display: flex;
     flex-flow: column nowrap;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     align-items: center;
 }
 
