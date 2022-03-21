@@ -147,6 +147,7 @@ div.info-item {
 div.testimonial {
     padding-top: 10vh;
     padding-bottom: 10vh;
+    max-width: 900px;
 }
 
 p.testimonial {
