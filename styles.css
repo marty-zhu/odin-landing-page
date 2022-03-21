@@ -148,3 +148,17 @@ div.testimonial {
     padding-top: 10vh;
     padding-bottom: 10vh;
 }
+
+p.testimonial {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin: 0;
+}
+
+p.testimony-source {
+    font-size: 18px;
+    font-weight: 900;
+    text-align: right;
+    margin: 0;
+}
