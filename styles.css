@@ -174,3 +174,11 @@ p.testimony-source {
     text-align: right;
     margin: 0;
 }
+
+
+/* cta section CSS */
+
+div.cta {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
