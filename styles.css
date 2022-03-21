@@ -144,10 +144,21 @@ div.info-item {
 
 /* testimonial section CSS */
 
+#testimonial-section {
+    /* justifies `div.testimonial` center so items within it will line up 
+     * at flex-end on cross axis
+     * */
+    display: flex;
+    justify-content: center;
+}
+
 div.testimonial {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    max-width: 900px;
+    max-width: 820px;  /* force max width to line up child elements */
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: end;
 }
 
 p.testimonial {
