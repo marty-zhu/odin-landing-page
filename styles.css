@@ -72,6 +72,7 @@ div.hero {
     padding-bottom: 10%;
     flex-flow: row wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 p.hero-main-text {
