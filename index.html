@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Sample Landing Page</title>
   <link rel="stylesheet" href="./styles.css">
+  <script src="myscript.js" defer></script>
 </head>
 <body>
   <header class="primary-bg-color">
@@ -24,7 +25,7 @@
         <div class="hero-left">
           <p class="hero-main-text primary-txt-color">This website is awesome</p>
           <p class="hero-sec-text secondary-txt-color">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-          <button onclick="msg()" type="button" class="hero-cta cta-bg-color primary-txt-color">Sign up</button>
+          <button type="button" class="hero-cta cta-bg-color primary-txt-color">Sign up</button>
         </div>
         <div class="hero-right">
           <img class="hero-img" src="" alt="this is a placeholder for an image">
@@ -67,7 +68,7 @@
             <p class="cta-header">Call to action! It's time!</p>
             <p class="cta-text">Sign up for our product by clicking that button right over there!</p>
           </div>
-          <button onclick="msg()" type="button" class="cta cta-bg-color primary-txt-color">Sign up</button>
+          <button type="button" class="cta cta-bg-color primary-txt-color">Sign up</button>
         </div>
       </div>
     </section>
@@ -77,10 +78,5 @@
       <p class="primary-txt-color">Copyright &copy; The Odin Project 2021</p>
     </div>
   </footer>
-  <script>
-    function msg() {
-          alert("Thank you for signing up!");
-        }
-  </script>
 </body>
 </html>
